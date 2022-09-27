@@ -6,6 +6,7 @@ This command-line application accepts input from the user about their team and t
 ## Installation
 link to website: https://github.com/ckrum21/Team-Profile-Generator/
 link to GitHub: https://github.com/ckrum21 
+link to Walkthrough video: https://www.youtube.com/watch?v=dElhLBYLc7M&ab_channel=ChelseaKrum
 
 Install this website by cloning the code to your local devices.
 
