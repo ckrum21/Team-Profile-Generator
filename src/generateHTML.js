@@ -27,7 +27,7 @@ const generateEngineer = function (engineer) {
         </div>
         <p class="card-text"> ID:${engineer.id} </p>
         <p class="card-text"> Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-        <p class="card-text"> Office Number:<a href="https://github.com/${engineer.github}">${engineer.github}</a></p>  
+        <p class="card-text"> GitHub:<a href="https://github.com/${engineer.github}">${engineer.github}</a></p>  
       </div>
     </div>
     </div>
@@ -45,7 +45,7 @@ const generateEngineer = function (engineer) {
             </div>
             <p class="card-text"> ID:${intern.id} </p>
             <p class="card-text"> Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
-            <p class="card-text"> Office Number:${intern.school}</p>  
+            <p class="card-text"> School:${intern.school}</p>  
           </div>
         </div>
         </div>
@@ -96,7 +96,7 @@ const generateTeamPage = function (employeeCards) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../dist/style.css" >
+    <link rel="stylesheet" href="./style.css" >
     <title>Team Profile Generator</title>
   </head>
   <body>
