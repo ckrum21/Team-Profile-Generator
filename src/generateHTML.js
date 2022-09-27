@@ -8,7 +8,7 @@ return `
     <h5>Manager</h5>
     </div>
     <p class="card-text"> ID:${manager.id} </p>
-    <p class="card-text"> Email:${manager.email}</p>
+    <p class="card-text"> Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
     <p class="card-text"> Office Number:${manager.officeNumber}</p>  
   </div>
 </div>
@@ -26,8 +26,8 @@ const generateEngineer = function (engineer) {
         <h5>engineer</h5>
         </div>
         <p class="card-text"> ID:${engineer.id} </p>
-        <p class="card-text"> Email:${engineer.email}</p>
-        <p class="card-text"> Office Number:${engineer.github}</p>  
+        <p class="card-text"> Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
+        <p class="card-text"> Office Number:<a href="https://github.com/${engineer.github}">${engineer.github}</a></p>  
       </div>
     </div>
     </div>
@@ -44,10 +44,10 @@ const generateEngineer = function (engineer) {
             <h5>intern</h5>
             </div>
             <p class="card-text"> ID:${intern.id} </p>
-            <p class="card-text"> Email:${intern.email}</p>
+            <p class="card-text"> Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
             <p class="card-text"> Office Number:${intern.school}</p>  
           </div>
-        </div>engineer
+        </div>
         </div>
             `;
         }
